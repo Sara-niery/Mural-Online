@@ -1,5 +1,5 @@
 """
-ASGI config for MuralOnline project.
+ASGI config for mural_0 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MuralOnline.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mural_0.settings')
 
 application = get_asgi_application()
